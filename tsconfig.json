@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "amd",
     "moduleResolution": "node",
     "newLine": "LF",
     "target": "es5",
@@ -12,6 +12,9 @@
       "dom",
       "es5"
     ],
+    "types": [
+      "requirejs"      // <<< added this, and npm installed @types/requirejs
+    ],
     "baseUrl": ".",
     "strict": false,
     "noUnusedLocals": false,
@@ -22,7 +25,8 @@
   },
   "exclude": [
     ".git",
-    "node_modules"
+    "node_modules",
+    "_site"
   ],
   "compileOnSave": true
 }

@@ -1,0 +1,26 @@
+{
+  "name": "trigger-death.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trigger-death/trigger-death.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trigger-death/trigger-death.github.io/issues"
+  },
+  "homepage": "https://github.com/trigger-death/trigger-death.github.io#readme",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "@types/requirejs": "^2.1.31",
+    "jikanjs": "^0.6.0",
+    "requirejs": "^2.3.6"
+  }
+}
